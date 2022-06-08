@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-q(*7&b9^n)r&o_a9++0=@t^a#*dkv0(=(+x2cr%zcyg&78rg7j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.herokuapp.com', localhost', '127.0.0.1','https://formintern.herokuapp.com/', config('SERVER', default='127.0.0.1')]
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1','https://formintern.herokuapp.com/', config('SERVER', default='127.0.0.1')]
 
 
 # Application definition
