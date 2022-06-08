@@ -1,0 +1,21 @@
+.sty {
+    text-align: center;
+    font-size: 230%;
+    font-family: Lucida Sans;
+    color: darkblue;
+    text-shadow: 1.5px 2px deepskyblue;
+    transition: font-size 2s;
+}
+.sty:hover {
+    font-size: 300%;
+    text-shadow: 1.5px 2px deepskyblue, 4px 4.5px 2px thistle;
+}
+.alert-sty {
+    font-size: 110%;
+    font-weight: 600;
+    background-color: rgb(251, 181, 154);
+    width: 50%;
+}
+.form-control:focus {
+    box-shadow: none;
+}
